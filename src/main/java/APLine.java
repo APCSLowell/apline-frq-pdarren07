@@ -11,11 +11,12 @@ public class APLine
     myC = c;
   }
   public double getSlope(){
-    return (-(myA/myB));
+    return (-1 * (myA/myB));
   }
   public isOnline(int x, int y)
-    if(((a * myA) + (y * myY) + myC) == 0)
+    if(((a * myA) + (y * myY) + myC) == 0){
       return true;
+    }
     return false;
   }
 }
