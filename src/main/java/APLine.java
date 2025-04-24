@@ -14,8 +14,7 @@ public class APLine
     return (-(myA/myB));
   }
   public isOnline(int x, int y)
-    int temp = (a * myA) + (y * myY) + myC;
-    if(temp == 0)
+    if(((a * myA) + (y * myY) + myC) == 0)
       return true;
     return false;
   }
